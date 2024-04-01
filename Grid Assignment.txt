@@ -1,0 +1,41 @@
+﻿1. What is the grid?
+The Grid is a layout system in CSS that allows you to create complex grid structures for arranging elements in rows and columns. It provides a two-dimensional layout system, allowing you to precisely position items within rows and columns.
+
+
+2. What is the difference between Flex and grid?
+The main difference between Flexbox and Grid lies in their layout models:
+* Flexbox:
+   * Works in one dimension (either as a row or a column).
+   * Suitable for arranging items within a single row or column, or changing the order of items.
+   * Best suited for layout structures where items need to be aligned in one direction.
+* Grid:
+   * Works in two dimensions (rows and columns).
+   * Allows you to define both rows and columns and position items within the grid.
+   * Ideal for creating complex layout structures with both rows and columns, such as grids with headers, footers, and content areas.
+
+
+
+
+3. How can you define rows and columns of your grid?
+To define rows and columns of a grid, you can use the grid-template-rows and grid-template-columns properties, respectively. For example:
+
+
+.grid-container {
+ display: grid;
+ grid-template-rows: 100px 200px; /* Define two rows with heights of 100px and 200px */
+ grid-template-columns: 1fr 2fr; /* Define two columns with widths in a ratio of 1:2 */
+}
+
+
+
+
+
+
+4. List any two properties of grid item and grid container.
+Two properties of the grid item (grid) and the grid container (grid-container) are:
+Grid Item (Child):
+* grid-row: Specifies the row position of the grid item within the grid.
+* grid-column: Specifies the column position of the grid item within the grid.
+Grid Container (Parent):
+* grid-template-rows: Defines the size of the rows in the grid container.
+* grid-template-columns: Defines the size of the columns in the grid container.
