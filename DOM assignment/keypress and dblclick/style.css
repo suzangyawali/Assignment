@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.editor-container {
+   display: flex;
+    height: 100vh;
+}
+
+#code-input {
+    flex:1;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+#output {
+   flex:1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    white-space: pre-wrap;
+}
